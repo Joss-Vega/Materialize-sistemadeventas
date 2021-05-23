@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+        <div class="container"> <!-- Cabecera -->
+            <nav  >
+                <div class="nav-wrapper blue-grey darken-4" >
+                <a href="#!" class="brand-logo"><i class="material-icons">menu</i>Logo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#"><i class="material-icons">person</i></a></li>
+                    <li><a href="#">Juan Vasquez Ventura</a></li>
+                </ul>
+                </div> 
+            </nav>
+        </div>
+        
+        <div class="col s12 m7" style="max-height:100%;"> <!-- formulario de pago inicio -->
+            
+            <div class="card horizontal">
+              
+              <div class="card-stacked">
+                <div class="card-panel red darken-2 white-text" style="margin: 0;" >
+                    <h3>S/. 21.60</h3> 
+                </div>
+                <div class="card-content">
+                    <div class="row"> 
+                        <div class="input-field col s6" style="margin-top: 0;">
+                            <label for="first_name">DOCUMENTO</label>
+                        </div>
+                        <div class="input-field col s6" style="margin-top: 0;">
+                            <label for="first_name">TIPO DE PAGO</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <select class="browser-default">
+                                <option value="" disabled selected>FACTURA</option>
+                                <option value="1">Option 1</option>
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                              </select>
+                            
+                          </div>
+                          
+                          <div class="input-field col s6">
+                              
+                            <select class="browser-default">
+                                <option value="" disabled selected>CONTADO</option>
+                                <option value="1">Option 1</option>
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                              </select>
+                            
+                          </div>              
+                    </div> 
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="00001" id="first_name" type="text" class="validate">
+                            <label for="first_name">SERIE</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input placeholder="0000000001" id="first_name" type="text" class="validate">
+                            <label for="first_name">N° DE CUENTA</label>
+                        </div>
+                    </div>       
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="date" class="validate">
+                            <label for="password">Fecha de Compra</label>
+                          </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input placeholder="RUC O RAZON SOCIAL" id="first_name" type="text" class="validate">
+                            <label for="first_name">PROVEEDOR</label>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 0;">
+                        <div class="card-action" >
+                            <div class="input-field col s6" style="margin-top: 0;">
+                                <h7>SUB TOTAL</h7>
+                                <h7>I.G.V</h7>
+                                <h6>TOTAL</h6>
+                            </div>
+                            <div class="input-field col s6" style="margin-top: 0;">
+                                <h7>S/. 18.31</h7>
+                                <h7>S/. 3.29</h7>
+                                <h6>S/. 21.60</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+              </div>
+            </div>
+        </div>                                             <!-- formulario de pago final -->
+
+        
+        
+    </div>
+   <script src="js/materialize.min.js"></script> 
+   <script src="js/script.js"></script>
+</body>
+</html>

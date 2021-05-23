@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Navbar</title>
+
+  <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+  <nav class="nav-wrapper blue-grey darken-4"> <!-- Menu -->
+    
+    <div class="container"><!-- Cabecera -->
+
+        <a href="#" class="brand-logo">System Ventas</a>
+        <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+          <i class="material-icons btn-floating btn-large blue-grey darken-4 pulse ">menu</i>
+        </a>
+
+        <ul class="right  hide-on-med-and-down">
+            <li><a href="#">Juan Vasquez Ventura
+                <i class="material-icons left">person</i></a>
+            </li>
+        </ul>
+    </div><!-- Cabecera -->
+
+    <ul class="sidenav" id="menu-responsive"> <!-- Menu responsive -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix " style="color: rgb(34, 34, 34);">search</i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">Search</label>
+                    </div>
+                </div>
+        <li><div class="divider"></div></li>
+        <li><a href="#!"><i class="material-icons">home_work</i>Almacen</a></li>
+        <li><a href="#!"><i class="material-icons">add_shopping_cart</i>Compras</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#!"><i class="material-icons">inventory_2</i>Tipo Documentos</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#!"><i class="material-icons">shopping_cart</i>Ventas</a></li>
+        <li><a href="#!"><i class="material-icons">inventory</i>Inventario</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#!"><i class="material-icons">groups</i>Usuarios</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#!"><i class="material-icons">bar_chart</i>Reportes de Compras</a></li>
+        <li><a href="#!"><i class="material-icons">auto_graph</i>Reportes de Ventas</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#!"><i class="material-icons">insert_chart_outlined</i>Graficos Estadísticos</a></li>
+        
+      </ul>
+      </ul><!-- Menu responsive -->
+  </nav>
+
+  <div class="row">
+    <div class="col s12 white">
+        <div class="col s2 m2   hide-on-med-and-down" style=" height: 762px; padding: 1px;"><!-- cuadro 01 -->
+           
+            <nav class=" white " >
+             
+                <ul>
+                    <div class="row ">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix " style="color: rgb(34, 34, 34);">search</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Search</label>
+                        </div>
+                    </div>
+                <li><div class="divider"></div></li>
+                <li><a href="#!"><i class="material-icons left grey-text" >home_work</i><label for="#">Almacen</label></a></li>
+                <li><a href="#!"><i class="material-icons left grey-text">add_shopping_cart</i><label for="#">Compras</label></a></li>
+                <li><div class="divider"></div></li>
+                <li><a href="#!"><i class="material-icons left grey-text">inventory_2</i><label for="#">Tipo Documentos</label></a></li>
+                <li><div class="divider"></div></li>
+                <li><a href="#!"><i class="material-icons left grey-text">shopping_cart</i><label for="#">Ventas</label></a></li>
+                <li><a href="#!"><i class="material-icons left grey-text">inventory</i> <label for="#">Inventario</label></a></li>
+                <li><div class="divider"></div></li>
+                <li><a href="#!"><i class="material-icons left grey-text">groups</i><label for="#">Usuarios</label></a></li>
+                <li><div class="divider"></div></li>
+                <li><a href="#!"><i class="material-icons left grey-text">bar_chart</i><label for="#">Reportes de Compras</label></a></li>
+                <li><a href="#!"><i class="material-icons left grey-text">auto_graph</i><label for="#">Reportes de Ventas</label></a></li>
+                <li><div class="divider"></div></li>
+                <li><a href="#!"><i class="material-icons left grey-text">insert_chart_outlined</i><label for="#">Graficos Estadísticos</label></a></li>
+                  </ul>
+                  
+            </nav>
+            
+        </div>
+
+        
+        <div class="col s12 m12 l10 blue-grey lighten-5"> <!-- contiene los demas -->
+                <div class="col s12 "><!-- encaje -->
+                    <nav>
+                        <div class="nav-wrapper blue-grey lighten-5">
+                            <div class="col s12 ">
+                            <a href="#!" class="breadcrumb blue-text"><i class="material-icons ">home</i>Inicio</a>
+                            <a href="#!" class="breadcrumb grey-text">Menu Principal</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col s12 m12 l9  blue-grey lighten-5" style=" height: 500px; margin-top: 10px;" ><!--  contiene a la tabla y el formulario -->
+                   
+                    <div class="col s12" style=" height: 100px; margin-top: 6px;"><!-- BUSCADOR -->
+
+                        <div class="col s1">
+                            <h6 class="left-align" style="font-weight: bold;">Producto</h6>
+                        </div>
+
+                        <div class="col s10 offset-s1 ">
+                            <nav>
+                                <div class="nav-wrapper white">
+                                  <form>
+                                    <div class="input-field" >
+                                      <input id="search" type="search" required>
+                                      <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                                      <label for="icon_prefix"> <h6>Buscar por codigo de barra o nombre del producto</h6></label>
+                                      <i class="material-icons">close</i>
+                                    </div>
+                                  </form>
+                                </div>
+                              </nav>
+                        </div>
+
+                        <div></div>
+                        
+                    </div><!-- BUSCADOR -->
+                    <div class="col s12  z-depth-2 white" ><!-- TABLA -->
+                        <table>
+                            <thead>
+                              <tr>
+                                  <th>Item</th>
+                                  <th>CANT</th>
+                                  <th>PRODUCTO</th>
+                                  <th>MARCA</th>
+                                  <th>PRECIO</th>
+                                  <th>IMPORTANTE</th>
+                              </tr>
+                            </thead>
+                    
+                            <tbody>
+                              <tr>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>Leche Evaporada Entera Pack x 6 Un Lata 410 Gr</td>
+                                <td>Gloria</td>
+                                <td>15.30</td>
+                                <td>15.30</td>
+                              </tr>
+                              <tr>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>Leche Chocolatada Tetra Pack 1 Lt</td>
+                                <td>Gloria</td>
+                                <td>3.10</td>
+                                <td>3.10</td>
+                              </tr>
+                              <tr>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>Leche Fresca 0% Lactosa Tetra Pack 1lt </td>
+                                <td>Gloria</td>
+                                <td>3.20</td>
+                                <td>3.20</td>
+                              </tr>
+                            </tbody>
+                          </table> 
+                    </div><!-- TABLA -->
+                    
+                    <div class="col s6 m12 offset-m3 offset-s3" style="margin-top: 15px;" ><!-- botones -->
+                        <a class="waves-effect waves-light btn-small light-blue accent-3"><i class="material-icons left ">shopping_cart</i>Guardar Compra</a>
+                        <a class="waves-effect waves-light btn-small red darken-2"><i class="material-icons left">delete_outlines</i>Vaciar Carrito</a>
+                    </div><!-- BOTONES -->
+                    
+                         
+                   
+                    
+                    
+                </div><!-- cuadro02 -->
+          
+            
+        
+            <div class="col s8 m8 l3 offset-m2 offset-s2 container z-depth-2 white" style="margin-top: 5px;  height: 680px;"><!-- cuadro 03 -->
+                <!-- formulario de pago inicio -->
+                    <div class="row">
+                        <div class="col s12 card-panel red accent-4 white-text center-align" style="margin-top: 0;">
+                             <h3>S/. 21.60</h3>         
+                        </div>            
+                    </div> 
+                    <div style="margin: 3%;">
+                        <div class="row"> 
+                            <div class="input-field col s6" style="margin-top: 0;">
+                                <label for="first_name">DOCUMENTO</label>
+                            </div>
+                            <div class="input-field col s6" style="margin-top: 0;">
+                                <label for="first_name">TIPO DE PAGO</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <select class="browser-default">
+                                    <option value="" disabled selected>FACTURA</option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                  </select>
+                                
+                              </div>
+                              
+                              <div class="input-field col s6">
+                                  
+                                <select class="browser-default">
+                                    <option value="" disabled selected>CONTADO</option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                  </select>
+                                
+                              </div>              
+                        </div> 
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input placeholder="00001" id="first_name" type="text" class="validate">
+                                <label for="first_name">SERIE</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input placeholder="0000000001" id="first_name" type="text" class="validate">
+                                <label for="first_name">N° DE VENTA</label>
+                            </div>
+                        </div>       
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="password" type="date" class="validate">
+                                <label for="password">Fecha de Compra</label>
+                              </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12" >
+                                <input placeholder="RUC O RAZON SOCIAL" id="first_name" type="text" class="validate">
+                                <label for="first_name">PROVEEDOR</label>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top: 0;">
+                            <div class="card-action">
+                                <div>
+                                    <div class="input-field col s6 left-align" style="margin-top: 0;">
+                                        <h8>SUB TOTAL</h8>
+                                    </div>
+                                    <div class="input-field col s6 right-align" style="margin-top: 0;">
+                                        <h8>S/. 18.31</h8>
+                                    </div>
+                                    <div class="input-field col s6 left-align" style="margin-top: 0;">
+                                        <h7>I.G.V (18%)</h7>
+                                    </div>
+                                </div> 
+                                </div>
+                
+                                <div>
+                                    <div class="input-field col s6 right-align" style="margin-top: 0;">
+                                        <h8>S/. 3.29</h8>
+                                    </div>
+                                    <div class="input-field col s6 left-align" style="margin-top: 0;">
+                                        <h8>TOTAL</h8>
+                                    </div>
+                                    <div class="input-field col s6 right-align" style="margin-top: 0;">
+                                        <h7>S/. 21.60</h7>
+                                    </div>
+                                </div>
+                                </div>  
+                        </div>
+                  </div>
+
+        </div>
+        
+                
+              <!-- formulario de pago final -->
+        </div>
+      </div>
+    </div>
+    
+ 
+
+  
+    
+  
+
+  
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script> src="js/materialize.min.js"</script>
+  <script src="js/script.js"></script>
+  <script>
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    // var elems = document.querySelectorAll('.sidenav');
+    // var instances = M.Sidenav.init(elems);
+    M.AutoInit();
+  });
+    
+  </script>
+
+
+</body>
+
+</html>
